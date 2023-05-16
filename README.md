@@ -8,9 +8,9 @@ As a result, there is a rising necessity for monitoring and analyzing the essent
 ## Hardware
 The wearable hardware module with the required sensors interfaced with the central microcontroller unit. The module is powered up by a rechargeable 3.7 volts battery(integrated with the module). The module also includes a buzzer in its power supply segment, which triggers and alarms when the input voltage gets reduced below its minimum requirement. The  sensors are compatible with recording ECG, PPG, Accelerometer, and GSR pulses, tapped suitably at a predefined spot in the body. The left hand is chosen explicitly because the ECG sensor electrodes can be conveniently taken to the  chest nodes for obtaining the ECG pulses as per the medical standards. There will be no direct touch to the sensors and any other components that ensures the safety of the hardware and the arm. The developed prototype can be further fine-tuned as we gradually progress and can be made commercially viable. The overall cost of the hardware is meager concerning the commercially available health monitoring devices. 
 
-![Hardware|10X20](https://drive.google.com/uc?export=view&id=1t7MnMIZefCYRyWCjZScdPi3oN5hAkZW7)
+![Hardware | 100x100 ](https://drive.google.com/uc?export=view&id=1t7MnMIZefCYRyWCjZScdPi3oN5hAkZW7)
 
-![Hardware|100x145](https://drive.google.com/uc?export=view&id=1Iix3cNzEFkXi1TJagr9xI6ZDKw-pDQwT)
+![Hardware](https://drive.google.com/uc?export=view&id=1Iix3cNzEFkXi1TJagr9xI6ZDKw-pDQwT)
 
 ## Software
 The software is developed in Python and C++ programming languages. The software is divided into two parts: data acquisition and data analysis. The data acquisition part is developed in C++ and the data analysis part is developed in Python. The data acquisition part is responsible for collecting data from the sensors and storing them in the Google Sheet. The data analysis part is responsible for analyzing the data and generating the health index. The data analysis part is further divided into two parts: sleep analysis and health index generation. The sleep analysis part is responsible for analyzing the accelerometer data and generating the sleep activity index. The health index generation part is responsible for analyzing the ECG, PPG, and GSR data and generating the health index. The health index is generated using machine learning algorithms. 
