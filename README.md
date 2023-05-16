@@ -8,7 +8,7 @@ As a result, there is a rising necessity for monitoring and analyzing the essent
 ## Hardware
 The wearable hardware module with the required sensors interfaced with the central microcontroller unit. The module is powered up by a rechargeable 3.7 volts battery(integrated with the module). The module also includes a buzzer in its power supply segment, which triggers and alarms when the input voltage gets reduced below its minimum requirement. The  sensors are compatible with recording ECG, PPG, Accelerometer, and GSR pulses, tapped suitably at a predefined spot in the body. The left hand is chosen explicitly because the ECG sensor electrodes can be conveniently taken to the  chest nodes for obtaining the ECG pulses as per the medical standards. There will be no direct touch to the sensors and any other components that ensures the safety of the hardware and the arm. The developed prototype can be further fine-tuned as we gradually progress and can be made commercially viable. The overall cost of the hardware is meager concerning the commercially available health monitoring devices. 
 
-![Hardware|100x145](https://drive.google.com/uc?export=view&id=1t7MnMIZefCYRyWCjZScdPi3oN5hAkZW7)
+![Hardware|10X20](https://drive.google.com/uc?export=view&id=1t7MnMIZefCYRyWCjZScdPi3oN5hAkZW7)
 
 ![Hardware|100x145](https://drive.google.com/uc?export=view&id=1Iix3cNzEFkXi1TJagr9xI6ZDKw-pDQwT)
 
