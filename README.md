@@ -17,7 +17,7 @@ The software is developed in Python and C++ programming languages. The software 
 The data acquisition part is developed in C++ programming language. The data acquisition part is responsible for collecting data from the sensors and storing them in the Google Sheet. The data acquisition part is further divided into two parts: data collection and data transmission. The data collection part is responsible for collecting data from the sensors. The data transmission part is responsible for transmitting the collected data to the Google Sheet. The data transmission part is further divided into two parts: data formatting and data transmission. The data formatting part is responsible for formatting the collected data. The data transmission part is responsible for transmitting the formatted data to the Google Sheet. 
 
 Collect Subject's details using the required google form and generate a seperate sheet and drive folder for it to store data collections and visualizations.
-// ![Google Form](https://drive.google.com/file/d/1Pk6z-zbjHi5dFPwL1g9oxpR5IOh2wouQ/view?usp=share_link)
+![Google Form](https://drive.google.com/file/d/1Pk6z-zbjHi5dFPwL1g9oxpR5IOh2wouQ/view?usp=share_link)
 
 ```
 function myFunction() {
@@ -149,7 +149,7 @@ else{
 
 ## Data Storage & Formatting
 The data storage part is developed in google appsscript. The data storage part is responsible for storing the collected data in the Google Sheet.
-// [Data](https://drive.google.com/file/d/16WimBDYTmiOJtyM5uhLWctX25QWJlrR3/view?usp=share_link)
+[Data](https://drive.google.com/uc?id=16WimBDYTmiOJtyM5uhLWctX25QWJlrR3)
 
 ```
 function doPost(e){
