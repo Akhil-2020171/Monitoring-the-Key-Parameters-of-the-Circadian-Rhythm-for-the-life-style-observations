@@ -150,7 +150,7 @@ else{
 ## Data Storage & Formatting
 The data storage part is developed in google appsscript. The data storage part is responsible for storing the collected data in the Google Sheet.
 
-[Data](https://drive.google.com/uc?export=view&id=16WimBDYTmiOJtyM5uhLWctX25QWJlrR3)
+![Data](https://drive.google.com/uc?export=view&id=16WimBDYTmiOJtyM5uhLWctX25QWJlrR3)
 
 
 ```
