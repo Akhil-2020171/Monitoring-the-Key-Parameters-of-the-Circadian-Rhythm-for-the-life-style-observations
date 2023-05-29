@@ -1,4 +1,4 @@
-# Monitoring the key parameters of the Circadian Rhythm for the life style observations
+# Monitoring the key parameters of the Circadian Rhythm for the lifestyle observations
 
 ## Introduction
 A 24-hour cycle that governs numerous physiological processes in living creatures, including humans, is known as the circadian rhythm. The human circadian rhythm regulates many bodily functions, including sleep-wake cycles, hormone secretion, and metabolism.
