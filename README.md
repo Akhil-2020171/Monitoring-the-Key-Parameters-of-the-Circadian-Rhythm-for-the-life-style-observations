@@ -245,6 +245,17 @@ function createAndSaveLineChart(ecgData=[20, 45, 32, 56, 21, 54, 32, 65, 45, 50]
    return fileBlob;
 }
 ```
+## How to use Analog to Digital 16x4 Multiplexer
+```
+  digitalWrite(MUXPinS0,HIGH);
+```
+Please take a look at the above-mentioned in-built function of Arduino.
+The 16x4 multiplexer has 4 select lines, namely MUXPinS0, MUXPinS1, MUXPinS2, and MUXPinS3 (as defined in the code).
+Suppose we want to select channel number 9 (1001 in binary); then we define the input of the select lines using the above-mentioned in-built function like,
+```
+  digitalWrite(MUXPinS0,HIGH); digitalWrite(MUXPinS1,LOW); digitalWrite(MUXPinS2,LOW); digitalWrite(MUXPinS3,HIGH);
+  // HIGH corresponds to 1, and LOW corresponds to 0.
+```
 
 ## Future Work
 The health index is a number between 0 and 1. The health index is 0 when the subject is in a healthy state and 1 when the subject is in an unhealthy state. The health index is generated every 5 minutes. The health index is stored in a file along with the data collected from the sensors.
