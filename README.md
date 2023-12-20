@@ -254,6 +254,7 @@ The 16x4 multiplexer has 4 select lines, namely MUXPinS0, MUXPinS1, MUXPinS2, an
 Suppose we want to select channel number 9 (1001 in binary); then we define the input of the select lines using the above-mentioned in-built function like,
 ```
   digitalWrite(MUXPinS0,HIGH); digitalWrite(MUXPinS1,LOW); digitalWrite(MUXPinS2,LOW); digitalWrite(MUXPinS3,HIGH);
+  // S0 S1 S2 S3 ---> 1 0 0 1 (according to the channel number)
   // HIGH corresponds to 1, and LOW corresponds to 0.
 ```
 
